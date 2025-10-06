@@ -6,6 +6,9 @@
 }
 
 @theme inline {
+  /** my fonts */
+  --font-nunito: var(--font-nunito);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -27,7 +30,7 @@ body {
 
 .container {
   @apply mx-auto;
-  @apply md:max-w-[640px];
+  @apply md:max-w-[740px];
   @apply lg:max-w-[840px];
   @apply xl:max-w-[1040px];
   @apply 2xl:max-w-[1340px];

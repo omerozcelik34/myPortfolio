@@ -6,9 +6,9 @@ import { IoMenu } from "react-icons/io5";
 const Header = () => {
   const logo: string = "<MP/>";
   return (
-    <div className="flex items-center justify-between pt-4">
+    <div className="flex items-center justify-between pt-4 font-bold">
       {/* Logo */}
-      <div>
+      <div className="font-extrabold">
         <Link
           className="text-xl lg:text-2xl font-bold border-none outline-none"
           href={"/"}
